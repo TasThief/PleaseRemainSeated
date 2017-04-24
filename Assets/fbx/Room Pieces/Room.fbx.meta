@@ -1,0 +1,240 @@
+fileFormatVersion: 2
+guid: 21f957451456c75429b19f99e13dee94
+timeCreated: 1492987601
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Border
+    100002: Border 1
+    100004: CornerWall
+    100006: CornerWall2
+    100008: CornerWall_R5
+    100010: CornerWallWindow_R
+    100012: Desk_0003:Drawer02
+    100014: Door1:Door
+    100016: Door1:Door 1
+    100018: Door1:DoorFrame
+    100020: Door1:Hinge01
+    100022: Door1:Hinge02
+    100024: Door1:Hinge03
+    100026: Door1:Hinges
+    100028: Door_CornerWall
+    100030: Glass_Pane1
+    100032: Glass_Pane1 1
+    100034: Glass_Pane2
+    100036: Glass_Pane2 1
+    100038: Handle
+    100040: Handle 1
+    100042: Pane_Brim
+    100044: Pane_Brim 1
+    100046: Pull_Out_WIndow
+    100048: Pull_Out_WIndow 1
+    100050: //RootNode
+    100052: Small_Wall
+    100054: SmallWall
+    100056: Window1
+    100058: Window2
+    100060: Window:Border
+    100062: Window:Glass_Pane1
+    100064: Window:Glass_Pane2
+    100066: Window:Handle
+    100068: Window:Pane_Brim
+    100070: Window:Pull_Out_WIndow
+    100072: Window:Window
+    100074: WindowWall__Small
+    100076: Z_Piece
+    400000: Border
+    400002: Border 1
+    400004: CornerWall
+    400006: CornerWall2
+    400008: CornerWall_R5
+    400010: CornerWallWindow_R
+    400012: Desk_0003:Drawer02
+    400014: Door1:Door
+    400016: Door1:Door 1
+    400018: Door1:DoorFrame
+    400020: Door1:Hinge01
+    400022: Door1:Hinge02
+    400024: Door1:Hinge03
+    400026: Door1:Hinges
+    400028: Door_CornerWall
+    400030: Glass_Pane1
+    400032: Glass_Pane1 1
+    400034: Glass_Pane2
+    400036: Glass_Pane2 1
+    400038: Handle
+    400040: Handle 1
+    400042: Pane_Brim
+    400044: Pane_Brim 1
+    400046: Pull_Out_WIndow
+    400048: Pull_Out_WIndow 1
+    400050: //RootNode
+    400052: Small_Wall
+    400054: SmallWall
+    400056: Window1
+    400058: Window2
+    400060: Window:Border
+    400062: Window:Glass_Pane1
+    400064: Window:Glass_Pane2
+    400066: Window:Handle
+    400068: Window:Pane_Brim
+    400070: Window:Pull_Out_WIndow
+    400072: Window:Window
+    400074: WindowWall__Small
+    400076: Z_Piece
+    2300000: Border
+    2300002: Border 1
+    2300004: CornerWall
+    2300006: CornerWall2
+    2300008: CornerWallWindow_R
+    2300010: Door1:Door 1
+    2300012: Door1:DoorFrame
+    2300014: Door1:Hinge01
+    2300016: Door1:Hinge02
+    2300018: Door1:Hinge03
+    2300020: Door_CornerWall
+    2300022: Glass_Pane1
+    2300024: Glass_Pane1 1
+    2300026: Glass_Pane2
+    2300028: Glass_Pane2 1
+    2300030: Handle
+    2300032: Handle 1
+    2300034: Pane_Brim
+    2300036: Pane_Brim 1
+    2300038: Small_Wall
+    2300040: SmallWall
+    2300042: Window:Border
+    2300044: Window:Glass_Pane1
+    2300046: Window:Glass_Pane2
+    2300048: Window:Handle
+    2300050: Window:Pane_Brim
+    2300052: WindowWall__Small
+    2300054: Z_Piece
+    3300000: Border
+    3300002: Border 1
+    3300004: CornerWall
+    3300006: CornerWall2
+    3300008: CornerWallWindow_R
+    3300010: Door1:Door 1
+    3300012: Door1:DoorFrame
+    3300014: Door1:Hinge01
+    3300016: Door1:Hinge02
+    3300018: Door1:Hinge03
+    3300020: Door_CornerWall
+    3300022: Glass_Pane1
+    3300024: Glass_Pane1 1
+    3300026: Glass_Pane2
+    3300028: Glass_Pane2 1
+    3300030: Handle
+    3300032: Handle 1
+    3300034: Pane_Brim
+    3300036: Pane_Brim 1
+    3300038: Small_Wall
+    3300040: SmallWall
+    3300042: Window:Border
+    3300044: Window:Glass_Pane1
+    3300046: Window:Glass_Pane2
+    3300048: Window:Handle
+    3300050: Window:Pane_Brim
+    3300052: WindowWall__Small
+    3300054: Z_Piece
+    4300000: WindowWall__Small
+    4300002: Window:Border
+    4300004: Window:Glass_Pane2
+    4300006: Window:Glass_Pane1
+    4300008: Window:Pane_Brim
+    4300010: Window:Handle
+    4300012: Door1:Hinge01
+    4300014: Door1:Hinge02
+    4300016: Door1:Hinge03
+    4300018: Door1:DoorFrame
+    4300020: Door1:Door
+    4300022: Door_CornerWall
+    4300024: CornerWall
+    4300026: CornerWall2
+    4300028: Small_Wall
+    4300030: SmallWall
+    4300032: CornerWallWindow_R
+    4300034: Z_Piece
+    4300036: Border
+    4300038: Glass_Pane2
+    4300040: Glass_Pane1
+    4300042: Pane_Brim
+    4300044: Handle
+    4300046: Border
+    4300048: Glass_Pane2
+    4300050: Glass_Pane1
+    4300052: Pane_Brim
+    4300054: Handle
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
