@@ -1,0 +1,145 @@
+fileFormatVersion: 2
+guid: 95ad360b8e68cad40ac17daeaf677890
+timeCreated: 1493154477
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cube
+    100002: Pier
+    100004: //RootNode
+    100006: PierBoards
+    100008: PierColums
+    100010: PierCrate1
+    100012: PierCrate2
+    100014: PierNet
+    100016: PierPole
+    100018: Water
+    100020: Water1
+    100022: Water2
+    100024: Water3
+    100026: Water4
+    100028: WindFlag
+    400000: Cube
+    400002: Pier
+    400004: //RootNode
+    400006: PierBoards
+    400008: PierColums
+    400010: PierCrate1
+    400012: PierCrate2
+    400014: PierNet
+    400016: PierPole
+    400018: Water
+    400020: Water1
+    400022: Water2
+    400024: Water3
+    400026: Water4
+    400028: WindFlag
+    2300000: Cube
+    2300002: PierBoards
+    2300004: PierColums
+    2300006: PierCrate1
+    2300008: PierCrate2
+    2300010: PierNet
+    2300012: PierPole
+    2300014: Water1
+    2300016: Water2
+    2300018: Water3
+    2300020: Water4
+    2300022: WindFlag
+    3300000: Cube
+    3300002: PierBoards
+    3300004: PierColums
+    3300006: PierCrate1
+    3300008: PierCrate2
+    3300010: PierNet
+    3300012: PierPole
+    3300014: Water1
+    3300016: Water2
+    3300018: Water3
+    3300020: Water4
+    3300022: WindFlag
+    4300000: Cube
+    4300002: Water4
+    4300004: Water3
+    4300006: Water2
+    4300008: Water1
+    4300010: PierCrate1
+    4300012: PierCrate2
+    4300014: PierPole
+    4300016: WindFlag
+    4300018: PierNet
+    4300020: PierColums
+    4300022: PierBoards
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

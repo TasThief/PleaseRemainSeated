@@ -1,25 +1,40 @@
 ﻿using UnityEngine;
 using cakeslice;
-[RequireComponent(typeof(Outline))]
+
 public class SelectionFeedback : MonoBehaviour {
-    Outline outline;
+    [SerializeField]
+    private CrosshairType useCroshair = CrosshairType.Nothing;
+
+    [SerializeField]
+    private float crosshairFadeInTime = 0.4f;
+
+    [HideInInspector]
+    private Outline outline;
+
     public void OnMouseEnter() {
-        if(enabled)
-            outline.enabled = true;
+        EnableOutline(true);
+        CrosshairManager.singleton.SetOn(useCroshair, crosshairFadeInTime);
     }
 
     public void OnMouseExit() {
-        if(enabled)
-            outline.enabled = false;
+        EnableOutline(false);
+        CrosshairManager.singleton.SetOff(useCroshair);
     }
 
     public void Disable() {
         enabled = false;
-        outline.enabled = false;
+        EnableOutline(false);
+        CrosshairManager.singleton.SetOff(useCroshair);
+    }
+
+    private void EnableOutline(bool value) {
+        if(outline != null)
+            outline.enabled = value;
     }
 
     void Start() {
         outline = GetComponent<Outline>();
-        outline.enabled = false;
+        EnableOutline(false);
     }
 }
+

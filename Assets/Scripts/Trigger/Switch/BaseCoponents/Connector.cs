@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine.Events;
 using System;
 
-public class Connector : Trigger, IBinary
+public class Connector : Switch, IBinary
 {
     [HideInInspector]
     public OneWaySwitch connectedTo;

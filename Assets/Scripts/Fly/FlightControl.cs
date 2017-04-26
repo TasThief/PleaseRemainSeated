@@ -116,10 +116,11 @@ public class FlightControl : MonoBehaviour {
 
         //calculate total avoidance force
         foreach(Collider collider in avoidanceColliders) {
-            impactPoint = collider.ClosestPoint(transform.position);
-            result += (transform.position - impactPoint) * (avoidanceRadius - Vector3.Distance(transform.position, impactPoint)) * avoidanceForceScale;
+            if(collider != null) {
+                impactPoint = collider.ClosestPoint(transform.position);
+                result += (transform.position - impactPoint) * (avoidanceRadius - Vector3.Distance(transform.position, impactPoint)) * avoidanceForceScale;
+            }
         }
-        
         //calculate current moving speed
         proceduralModule.speed = Mathf.Lerp(proceduralModule.speed, targetFlightForce, 0.2f);
 

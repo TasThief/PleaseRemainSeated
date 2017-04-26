@@ -1,7 +1,5 @@
 ﻿using UnityEngine;
-using System.Collections;
 using UnityEngine.Events;
-using System;
 
 public  class BinarySwitch : OneWaySwitch, IBinary
 {
