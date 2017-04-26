@@ -2,7 +2,27 @@
 
 public abstract class Switch : MonoBehaviour {
     [SerializeField]
-    private bool on = true;
+    protected bool on = true;
+
+    public bool On {
+        get { return on; }
+        private set {
+            if(on != value) {
+                on = value;
+                if(on) {
+                    if(onSetStateOnEvent != null)
+                        onSetStateOnEvent();
+                }
+                else
+                    if(onSetStateOffEvent != null)
+                        onSetStateOffEvent();
+            }
+        }
+    }
+
+    protected event System.Action onSetStateOnEvent;
+
+    protected event System.Action onSetStateOffEvent;
 
     [SerializeField]
     public bool oneShot = false;
@@ -11,20 +31,20 @@ public abstract class Switch : MonoBehaviour {
     protected Switch[] connectedList;
 
     public void Ibernate() {
-        on = false;
+        On = false;
     }
 
     public void Wake() {
-        on = true;
+        On = true;
     }
 
     public void Sleep(float sleepDuration) {
-        on = false;
+        On = false;
         Invoke("Wake", sleepDuration);
     }
 
     public void Activate() {
-        if(on) {
+        if(On) {
             Action();
             if(oneShot)
                 Ibernate();

@@ -3,6 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Shooter : MonoBehaviour {
+    private static Shooter singleton;
+
+    void Start() {
+        singleton = this;
+    }
+
     [SerializeField]
     private GameObject clip;
 
@@ -30,10 +36,30 @@ public class Shooter : MonoBehaviour {
         LoadedClip.GetComponent<Rigidbody>().AddForce(LoadedClip.transform.forward * fireForce);
         loadedClip.GetComponent<ClipString>().start = transform.position;
         cdTime = Time.time;
+        if(hookedTrigger != null)
+            hookedTrigger = null;
+    }
+    void PushClip() {
+        hookedTrigger.Activate();
+        hookedTrigger.Letlose();
+        Destroy(loadedClip,destructionDelay);
+    }
+
+    ClipTrigger hookedTrigger = null;
+
+    public static void Hook(ClipTrigger caller) {
+        singleton.hookedTrigger = caller;
+    }
+
+    public static bool IsHooked(ClipTrigger caller) {
+        return singleton.hookedTrigger != null && singleton.hookedTrigger == caller;
     }
 
     void Update() {
-        if(Time.time - cdTime > cd && Input.GetMouseButtonDown(1))
-            Fire();
+        if(Input.GetMouseButtonDown(1))
+            if(hookedTrigger != null && hookedTrigger.onFocus)
+                PushClip();
+            else if(Time.time - cdTime > cd)
+                Fire();
     }
 }

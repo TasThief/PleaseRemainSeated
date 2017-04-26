@@ -103,4 +103,4 @@ public class CrosshairControl {
     }
 }
 
-public enum CrosshairType { Nothing = -1, Fly = 0, Hand = 1 }
+public enum CrosshairType { Nothing = -1, Fly = 0, Hand = 1, Aim = 2 }
